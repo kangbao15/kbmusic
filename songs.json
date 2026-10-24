@@ -1,4 +1,3 @@
-
 [
   {
     "title": "ANH BẮC VÔ GIA CƯ 1",
@@ -7,6 +6,15 @@
     "cover": "",
     "youtube": "https://youtube.com/shorts/0PVcSnUsQ5s?si=0b3pzNR_6-eNqe3l",
     "description": "Bản nhạc của KangBaoReal.",
+    "isNew": false
+  },
+  {
+    "title": "ANH BẮC VÔ GIA CƯ 2",
+    "artist": "KangBaoReal",
+    "audio": "Anh_Bắc_Vô_Gia_Cư_2.mp3",
+    "cover": "",
+    "youtube": "https://www.youtube.com/watch?v=bonmRcOpqJI",
+    "description": "Bản nhạc mới của KangBaoReal.",
     "isNew": true
   }
 ]
