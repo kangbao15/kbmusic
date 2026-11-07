@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#100c19">
-<meta name="description" content="Kang Bao Music. Âm nhạc của KangBaoReal.">
+<meta name="description" content="KangBao Music. Âm nhạc của KangBao15.">
 <title>KangBao Music</title>
 
 <style>
@@ -476,7 +476,7 @@ input[type="range"] {
     <div class="brand">
       <div class="brand-logo">K</div>
       <div>
-        <div class="brand-name">Kang Bao Music</div>
+        <div class="brand-name">KangBao Music</div>
         <div class="brand-sub">YOUR MUSIC SPACE</div>
       </div>
     </div>
@@ -491,7 +491,7 @@ input[type="range"] {
 
     <div class="sidebar-note">
       <strong>🎧 Góc âm nhạc riêng</strong>
-      <p>Nơi lưu trữ và thưởng thức những bản nhạc của KangBaoReal.</p>
+      <p>Nơi lưu trữ và thưởng thức những bản nhạc của KangBao15.</p>
     </div>
   </aside>
 
@@ -501,26 +501,26 @@ input[type="range"] {
         placeholder="⌕  Tìm tên bài hát, nghệ sĩ..." aria-label="Tìm bài hát">
       <div class="profile">
         <div class="avatar">K</div>
-        <span class="profile-name">KangBaoReal</span>
+        <span class="profile-name">KangBao15</span>
       </div>
     </header>
 
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow">KANG BAO MUSIC ORIGINAL</div>
+        <div class="eyebrow">KANGBAO MUSIC ORIGINAL</div>
         <h1 id="heroTitle">Âm nhạc của tôi.</h1>
-        <p id="heroDesc">Những bản nhạc mang dấu ấn riêng của KangBaoReal.</p>
+        <p id="heroDesc">Những bản nhạc mang dấu ấn riêng của KangBao15.</p>
         <button class="primary-btn" id="heroPlay">▶ &nbsp; Phát ngay</button>
         <div id="heroYoutube"></div>
       </div>
-      <div class="hero-art" aria-label="Ảnh bìa Kang Bao Music"></div>
+      <div class="hero-art" aria-label="Ảnh bìa KangBao Music"></div>
     </section>
 
     <section>
       <div class="section-head">
         <div>
           <h2 id="sectionTitle">Thư viện âm nhạc</h2>
-          <p>Nhạc của KangBaoReal, tập trung tại một nơi.</p>
+          <p>Nhạc của KangBao15, tập trung tại một nơi.</p>
         </div>
         <span class="track-count" id="trackCount">Đang tải...</span>
       </div>
@@ -529,7 +529,7 @@ input[type="range"] {
       </div>
     </section>
 
-    <div class="footer">KANG BAO MUSIC · MADE FOR THE MUSIC</div>
+    <div class="footer">KANGBAO MUSIC · MADE FOR THE MUSIC</div>
   </main>
 </div>
 
@@ -538,7 +538,7 @@ input[type="range"] {
     <div class="mini-cover" id="miniCover">KB</div>
     <div class="now-meta">
       <div class="now-title" id="nowTitle">Chưa chọn bài hát</div>
-      <div class="now-artist" id="nowArtist">KangBaoReal</div>
+      <div class="now-artist" id="nowArtist">KangBao15</div>
     </div>
   </div>
 
@@ -629,7 +629,7 @@ input[type="range"] {
     if (!featured) return;
     $("heroTitle").textContent = featured.title;
     $("heroDesc").textContent = featured.description ||
-      "Tuyển tập âm nhạc của KangBaoReal.";
+      "Tuyển tập âm nhạc của KangBao15.";
     $("heroYoutube").replaceChildren();
 
     if (featured.youtube) {
@@ -698,13 +698,13 @@ input[type="range"] {
 
       const artist = document.createElement("div");
       artist.className = "track-artist";
-      artist.textContent = song.artist || "KangBaoReal";
+      artist.textContent = song.artist || "KangBao15";
 
       card.append(wrap, title, artist);
 
       const tag = document.createElement("span");
       tag.className = "track-tag";
-      tag.textContent = song.isNew ? "MỚI PHÁT HÀNH" : "KANG BAO MUSIC";
+      tag.textContent = song.isNew ? "MỚI PHÁT HÀNH" : "KANGBAO MUSIC";
       card.appendChild(tag);
 
       grid.appendChild(card);
@@ -736,11 +736,11 @@ input[type="range"] {
 
     if (song) {
       $("nowTitle").textContent = song.title;
-      $("nowArtist").textContent = song.artist || "KangBaoReal";
+      $("nowArtist").textContent = song.artist || "KangBao15";
       setCover($("miniCover"), song, true);
     } else {
       $("nowTitle").textContent = "Chưa chọn bài hát";
-      $("nowArtist").textContent = "KangBaoReal";
+      $("nowArtist").textContent = "KangBao15";
       $("miniCover").textContent = "KB";
     }
 
@@ -913,7 +913,7 @@ input[type="range"] {
         song && typeof song.title === "string" && song.title.trim()
       ).map(song => ({
         title: song.title.trim(),
-        artist: safeText(song.artist, "KangBaoReal"),
+        artist: safeText(song.artist, "KangBao15"),
         audio: safeText(song.audio).trim(),
         cover: safeText(song.cover).trim(),
         youtube: safeText(song.youtube).trim(),
