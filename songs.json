@@ -1,20 +1,29 @@
 [
   {
     "title": "ANH BẮC VÔ GIA CƯ 1",
-    "artist": "KangBaoReal",
+    "artist": "KangBao15",
     "audio": "Anh_Bắc_Vô_Gia_Cư.mp3",
     "cover": "",
     "youtube": "https://youtube.com/shorts/0PVcSnUsQ5s?si=0b3pzNR_6-eNqe3l",
-    "description": "Bản nhạc của KangBaoReal.",
+    "description": "Bản nhạc của KangBao15.",
     "isNew": false
   },
   {
     "title": "ANH BẮC VÔ GIA CƯ 2",
-    "artist": "KangBaoReal",
+    "artist": "KangBao15",
     "audio": "Anh_Bắc_Vô_Gia_Cư_2.mp3",
     "cover": "",
     "youtube": "https://www.youtube.com/watch?v=bonmRcOpqJI",
-    "description": "Bản nhạc mới của KangBaoReal.",
+    "description": "Bản nhạc mới của KangBao15.",
+    "isNew": true
+  },
+  {
+    "title": "Say Mê Rồi",
+    "artist": "KangBao15",
+    "audio": "Say Mê Rồi.mp3",
+    "cover": "",
+    "youtube": "https://www.youtube.com/watch?v=cCOVAKRd2SU",
+    "description": "Bản nhạc mới của KangBao15.",
     "isNew": true
   }
 ]
